@@ -75,7 +75,7 @@ DATABASES = {
 # Internationalization
 from django.utils.translation import ugettext_lazy as _
 LANGUAGE_CODE = 'en-us'
-USE_I18N = True
+USE_I18N = False
 LANGUAGES = (
     ('en', _('English')),
     ('ca', _('Catalan')),

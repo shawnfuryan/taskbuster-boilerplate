@@ -180,6 +180,15 @@ We need to update the languages in our Tests to make sure the translation works 
 
 
 
+Disable I18N For Now
+********************
+
+Since this is boilerplate, and we will be doing significant development work on the site from the this point, go ahead and disable I18N until production stabilizes, and we can get complete translations in place
+From the app directory, make sure that USE_I18N is set to false in **settings/base.py**::
+
+	USE_I18N = False
+
+
 Useful commands
 ---------------
 
